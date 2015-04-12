@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Manhood Quotes</string>
+
+    <string name="title_section1">Martin Luther Jr</string>
+    <string name="title_section2">Mahatma Gandhi</string>
+    <string name="title_section3">Barack Obama</string>
+    <string name="title_section4">Woodrow Wilson</string>
+    <string name="title_section5">Harriet Tubman</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
