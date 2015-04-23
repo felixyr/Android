@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 
 import com.andexert.library.RippleView;
+import com.facebook.FacebookSdk;
 
 import java.util.ArrayList;
 
@@ -25,6 +26,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_main);
 
             setContentView(R.layout.activity_main);

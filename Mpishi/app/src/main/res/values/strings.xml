@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mpishi</string>
+
+    <string name="facebook_app_id">346589125550789</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_how_it_works1_">HowItWorks1_Activity</string>
+    <string name="title_activity_how_it_works2_">HowItWorks2_Activity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login1">Login1Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_logins">LoginsActivity</string>
+    <string name="title_activity_facebook">FacebookActivity</string>
+    <string name="title_activity_unique">UniqueActivity</string>
+    <string name="title_activity_distinct">Login with facebook</string>
+</resources>

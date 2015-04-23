@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.felix_000.mpishi_app.MainActivity">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/menu" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageView4"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#700b0b0b" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browse"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginTop="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:background="#ff38ff84" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/button4"
+        android:background="#ff298bff"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latest Recipes"
+        android:id="@+id/button5"
+        android:background="#ff298bff"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4" />
+
+</RelativeLayout>
