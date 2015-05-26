@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Naievents</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="btnUploadToServer">Upload Image</string>
+    <string name="title_activity_splash"></string>
+    <string name="Technology">Technology</string>
+    <string name="Business">Business</string>
+    <string name="Music">Music</string>
+    <string name="Entrepreneurship">Entrepreneurship</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_app_info">AppInfoActivity</string>
+    <string name="title_activity_featured_events">FeaturedEventsActivity</string>
+    <string name="title_activity_event_listing">EventListingActivity</string>
+    <string name="title_activity_event_details">EventDetailsActivity</string>
+    <string name="title_activity_attendee_details">AttendeeDetailsActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_event_creation">EventCreationActivity</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_event_listing_new">EventListingNewActivity</string>
+    <string-array name="events_array">
+        <item>--Select Category--</item>
+        <item>Technology</item>
+        <item>Business</item>
+        <item>Entrepreneurship</item>
+        <item>Music</item>
+           </string-array>
+</resources>

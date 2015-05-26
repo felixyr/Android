@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.felix_000.naievents_beta" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".FeaturedEventsActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".EventListingActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".EventDetailsActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".AttendeeDetailsActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".EventCreationActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".AppInfoActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventListingNewActivity"
+            android:label="@string/title_activity_event_listing_new" >
+        </activity>
+    </application>
+
+</manifest>
